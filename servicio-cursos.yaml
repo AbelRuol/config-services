@@ -2,7 +2,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: abel
-    url: jdbc:mysql://[2a02:8308:6005:af00:c91:b78b:85fd:9a6e]:3306/cursos?serverTimezone=UTC
+    url: jdbc:mysql://[2a02:8308:6005:af00:413e:c7d1:b475:1738]:3306/cursos?serverTimezone=UTC
     password: kkabel
   jpa:
     hibernate:
