@@ -11,7 +11,7 @@ spring:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
 eureka:
   client:
-    service-url:
+    serviceUrl:
       defaultZone: http://192.168.0.179:8761/eureka
   instance:
     instance-id: ${spring.application.name}:${random.int}
